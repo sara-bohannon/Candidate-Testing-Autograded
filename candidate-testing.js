@@ -63,12 +63,12 @@ function gradeQuiz(candidateAnswers) {
   let grade = (numCorrect / questions.length) * 100;
   
  //TODO 3.2 use this variable to calculate the candidates score.
-console.log(`>>> Overall Grade: ${grade}% (${numCorrect} out of ${questions.length} correct answers) <<<`);
+console.log(` Overall Grade: ${grade}% (${numCorrect} out of ${questions.length} correct answers) `);
   
 if (grade >= 80) {
-  console.log(`>>> Status: PASSED <<<`);
+  console.log(` Status: PASSED `);
 } else {
-  console.log(`>>> Status: FAILED <<<`);
+  console.log(` Status: FAILED `);
 }
 
  return grade;
